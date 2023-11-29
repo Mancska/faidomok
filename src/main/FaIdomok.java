@@ -30,7 +30,11 @@ public class FaIdomok {
         
     }
 
-    private static void run() {
+    public  void run() {
+        osszSuly();
+        osszGombSuly();
+        minV();
+        maxV();
       }
  
 }
